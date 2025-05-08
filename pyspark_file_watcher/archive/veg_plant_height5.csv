@@ -1,0 +1,11 @@
+plant_name,UOM,Low_End_of_Range,High_End_of_Range
+"Beans, lima (bush)",F,2,4
+"Beans, pole",I,11,17
+Asparagus,I,2,6
+"Beans, lima (bush)",F,12,20
+"Beans, bush",F,20,29
+"Beans, lima (bush)",I,20,23
+Asparagus,I,7,9
+Beet,I,12,13
+Artichoke,F,16,17
+Beet,I,8,14

@@ -1,0 +1,11 @@
+plant_name,UOM,Low_End_of_Range,High_End_of_Range
+Carrot,F,3,7
+"Beans, lima (bush)",I,7,11
+Cabbage,I,15,18
+Cabbage,F,7,13
+Asparagus,I,11,19
+Beet,F,9,18
+Broccoli,F,15,23
+Asparagus,F,5,9
+Carrot,F,8,16
+"Beans, bush",F,16,17

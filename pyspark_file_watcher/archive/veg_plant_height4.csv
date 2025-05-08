@@ -1,0 +1,11 @@
+plant_name,UOM,Low_End_of_Range,High_End_of_Range
+Carrot,I,11,14
+Arugula,I,4,10
+Brussels sprouts,I,17,18
+"Beans, pole",F,20,22
+Cabbage,F,17,26
+Cabbage,I,17,23
+Asparagus,F,2,3
+Arugula,I,5,7
+Beet,I,3,7
+Arugula,F,3,7

@@ -1,0 +1,11 @@
+plant_name,UOM,Low_End_of_Range,High_End_of_Range
+"Beans, bush",F,10,12
+Asparagus,F,6,16
+Cauliflower,F,16,26
+Cabbage,I,10,11
+Beet,I,13,23
+Cabbage,F,2,3
+Cabbage,I,20,29
+Cabbage,F,5,12
+Arugula,F,9,16
+"Beans, bush",I,8,18
