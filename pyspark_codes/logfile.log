@@ -1,179 +1,0 @@
-25/05/08 11:48:03 WARN Utils: Your hostname, modaktrainee-4-12 resolves to a loopback address: 127.0.1.1; using 10.50.12.16 instead (on interface wlo1)
-25/05/08 11:48:03 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
-Setting default log level to "WARN".
-To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-25/05/08 11:48:04 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-[Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 2:>                                                          (0 + 1) / 1]                                                                                
-Processing: /home/mt24052/pyspark_file_watcher/input/veg_plant_height1.csv
-Initial columns: ['plant_name', 'UOM', 'Low_End_of_Range', 'High_End_of_Range']
-Renamed column: plant_name → plant
-Applied filter: UOM == I
-+-------+---+----------------+-----------------+
-|  plant|UOM|Low_End_of_Range|High_End_of_Range|
-+-------+---+----------------+-----------------+
-|Arugula|  I|              13|               15|
-| Carrot|  I|               8|               17|
-+-------+---+----------------+-----------------+
-
-None
-Saved to: /home/mt24052/pyspark_file_watcher/output/veg_plant_height1.parquet
-
-Processing: /home/mt24052/pyspark_file_watcher/input/veg_plant_height4.csv
-Initial columns: ['plant_name', 'UOM', 'Low_End_of_Range', 'High_End_of_Range']
-Renamed column: plant_name → plant
-Applied filter: UOM == I
-+----------------+---+----------------+-----------------+
-|           plant|UOM|Low_End_of_Range|High_End_of_Range|
-+----------------+---+----------------+-----------------+
-|     Cauliflower|  I|               8|                9|
-|     Beans, pole|  I|               9|               14|
-|       Artichoke|  I|               2|                6|
-|Brussels sprouts|  I|              18|               21|
-|     Beans, pole|  I|               2|                9|
-|Brussels sprouts|  I|              15|               19|
-+----------------+---+----------------+-----------------+
-
-None
-Saved to: /home/mt24052/pyspark_file_watcher/output/veg_plant_height4.parquet
-
-Processing: /home/mt24052/pyspark_file_watcher/input/veg_plant_height2.csv
-Initial columns: ['plant_name', 'UOM', 'Low_End_of_Range', 'High_End_of_Range']
-Renamed column: plant_name → plant
-Applied filter: UOM == I
-+----------------+---+----------------+-----------------+
-|           plant|UOM|Low_End_of_Range|High_End_of_Range|
-+----------------+---+----------------+-----------------+
-|     Cauliflower|  I|              20|               24|
-|       Asparagus|  I|               3|                7|
-|            Beet|  I|               9|               19|
-|         Cabbage|  I|              16|               24|
-|Brussels sprouts|  I|              19|               24|
-|         Arugula|  I|               3|                5|
-+----------------+---+----------------+-----------------+
-
-None
-Saved to: /home/mt24052/pyspark_file_watcher/output/veg_plant_height2.parquet
-
-Processing: /home/mt24052/pyspark_file_watcher/input/veg_plant_height3.csv
-Initial columns: ['plant_name', 'UOM', 'Low_End_of_Range', 'High_End_of_Range']
-Renamed column: plant_name → plant
-Applied filter: UOM == I
-+-----------+---+----------------+-----------------+
-|      plant|UOM|Low_End_of_Range|High_End_of_Range|
-+-----------+---+----------------+-----------------+
-|Beans, pole|  I|              10|               12|
-|    Arugula|  I|              13|               22|
-|     Carrot|  I|              17|               18|
-|  Artichoke|  I|              17|               27|
-+-----------+---+----------------+-----------------+
-
-None
-Saved to: /home/mt24052/pyspark_file_watcher/output/veg_plant_height3.parquet
-25/05/08 11:49:03 WARN Utils: Your hostname, modaktrainee-4-12 resolves to a loopback address: 127.0.1.1; using 10.50.12.16 instead (on interface wlo1)
-25/05/08 11:49:03 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
-Setting default log level to "WARN".
-To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-25/05/08 11:49:04 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-[Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 2:>                                                          (0 + 1) / 1]                                                                                
-Processing: /home/mt24052/pyspark_file_watcher/input/veg_plant_height1.csv
-Initial columns: ['plant_name', 'UOM', 'Low_End_of_Range', 'High_End_of_Range']
-Renamed column: plant_name → plant
-Applied filter: UOM == I
-+-----------+---+----------------+-----------------+
-|      plant|UOM|Low_End_of_Range|High_End_of_Range|
-+-----------+---+----------------+-----------------+
-|    Cabbage|  I|              10|               11|
-|       Beet|  I|              13|               23|
-|    Cabbage|  I|              20|               29|
-|Beans, bush|  I|               8|               18|
-+-----------+---+----------------+-----------------+
-
-None
-Saved to: /home/mt24052/pyspark_file_watcher/output/veg_plant_height1.parquet
-25/05/08 11:50:03 WARN Utils: Your hostname, modaktrainee-4-12 resolves to a loopback address: 127.0.1.1; using 10.50.12.16 instead (on interface wlo1)
-25/05/08 11:50:03 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
-Setting default log level to "WARN".
-To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-25/05/08 11:50:03 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-[Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 2:>                                                          (0 + 1) / 1]                                                                                
-Processing: /home/mt24052/pyspark_file_watcher/input/veg_plant_height2.csv
-Initial columns: ['plant_name', 'UOM', 'Low_End_of_Range', 'High_End_of_Range']
-Renamed column: plant_name → plant
-Applied filter: UOM == I
-+------------------+---+----------------+-----------------+
-|             plant|UOM|Low_End_of_Range|High_End_of_Range|
-+------------------+---+----------------+-----------------+
-|Beans, lima (bush)|  I|               7|               11|
-|           Cabbage|  I|              15|               18|
-|         Asparagus|  I|              11|               19|
-+------------------+---+----------------+-----------------+
-
-None
-Saved to: /home/mt24052/pyspark_file_watcher/output/veg_plant_height2.parquet
-25/05/08 11:51:03 WARN Utils: Your hostname, modaktrainee-4-12 resolves to a loopback address: 127.0.1.1; using 10.50.12.16 instead (on interface wlo1)
-25/05/08 11:51:03 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
-Setting default log level to "WARN".
-To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-25/05/08 11:51:03 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-[Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 2:>                                                          (0 + 1) / 1]                                                                                
-Processing: /home/mt24052/pyspark_file_watcher/input/veg_plant_height3.csv
-Initial columns: ['plant_name', 'UOM', 'Low_End_of_Range', 'High_End_of_Range']
-Renamed column: plant_name → plant
-Applied filter: UOM == I
-+----------------+---+----------------+-----------------+
-|           plant|UOM|Low_End_of_Range|High_End_of_Range|
-+----------------+---+----------------+-----------------+
-|         Arugula|  I|              17|               20|
-|Brussels sprouts|  I|               6|               11|
-|       Asparagus|  I|              13|               23|
-|        Broccoli|  I|               9|               16|
-+----------------+---+----------------+-----------------+
-
-None
-Saved to: /home/mt24052/pyspark_file_watcher/output/veg_plant_height3.parquet
-25/05/08 11:52:03 WARN Utils: Your hostname, modaktrainee-4-12 resolves to a loopback address: 127.0.1.1; using 10.50.12.16 instead (on interface wlo1)
-25/05/08 11:52:03 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
-Setting default log level to "WARN".
-To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-25/05/08 11:52:04 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-[Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 2:>                                                          (0 + 1) / 1]                                                                                
-Processing: /home/mt24052/pyspark_file_watcher/input/veg_plant_height4.csv
-Initial columns: ['plant_name', 'UOM', 'Low_End_of_Range', 'High_End_of_Range']
-Renamed column: plant_name → plant
-Applied filter: UOM == I
-+----------------+---+----------------+-----------------+
-|           plant|UOM|Low_End_of_Range|High_End_of_Range|
-+----------------+---+----------------+-----------------+
-|          Carrot|  I|              11|               14|
-|         Arugula|  I|               4|               10|
-|Brussels sprouts|  I|              17|               18|
-|         Cabbage|  I|              17|               23|
-|         Arugula|  I|               5|                7|
-|            Beet|  I|               3|                7|
-+----------------+---+----------------+-----------------+
-
-None
-Saved to: /home/mt24052/pyspark_file_watcher/output/veg_plant_height4.parquet
-25/05/08 11:53:03 WARN Utils: Your hostname, modaktrainee-4-12 resolves to a loopback address: 127.0.1.1; using 10.50.12.16 instead (on interface wlo1)
-25/05/08 11:53:03 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
-Setting default log level to "WARN".
-To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-25/05/08 11:53:03 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-[Stage 2:>                                                          (0 + 1) / 1]                                                                                
-Processing: /home/mt24052/pyspark_file_watcher/input/veg_plant_height5.csv
-Initial columns: ['plant_name', 'UOM', 'Low_End_of_Range', 'High_End_of_Range']
-Renamed column: plant_name → plant
-Applied filter: UOM == I
-+------------------+---+----------------+-----------------+
-|             plant|UOM|Low_End_of_Range|High_End_of_Range|
-+------------------+---+----------------+-----------------+
-|       Beans, pole|  I|              11|               17|
-|         Asparagus|  I|               2|                6|
-|Beans, lima (bush)|  I|              20|               23|
-|         Asparagus|  I|               7|                9|
-|              Beet|  I|              12|               13|
-|              Beet|  I|               8|               14|
-+------------------+---+----------------+-----------------+
-
-None
-Saved to: /home/mt24052/pyspark_file_watcher/output/veg_plant_height5.parquet
