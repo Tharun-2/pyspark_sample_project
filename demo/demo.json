@@ -1,0 +1,57 @@
+{
+  "data" : [
+    {
+      "credential_type" : "Username with password",
+      "credential_name" : "snowflake_cred121",
+      "dataplace_name" : "snowflake_DC121",
+      "is_active" : true,
+      "is_sensitive" : false,
+      "connection_type" : "snowflake",
+      "contact_info" : {
+        "owner" : "MT24052",
+        "description" : "",
+        "email_notification" : {
+          "on_failure" : [
+            "tharun.chinnam@modak.com"
+          ],
+          "failure_email_check" : true,
+          "new_or_dropped_email_check" : true,
+          "on_success" : [
+            "tharun.chinnam@modak.com"
+          ],
+          "notify_on_schema_drift" : false,
+          "schema_drift_email_check" : false,
+          "success_email_check" : true,
+          "email_check" : false,
+          "on_dropped_or_new_tables" : [
+            "tharun.chinnam@modak.com"
+          ]
+        }
+      },
+      "description" : "",
+      "timeout" : 24,
+      "source_info" : {
+        "post_conditions" : {
+          "rest_api_details" : [],
+          "enabled" : false
+        },
+        "debug_mode" : false,
+        "warehouse_name" : "COMPUTE_WH",
+        "database_name" : "LIBRARY_CARD_CATALOG",
+        "is_jdbc_url" : false,
+        "filters_enabled" : false,
+        "filesystem_info" : {
+          "bucket" : "globalbuckettharun2",
+          "container" : "",
+          "credential_type" : "AWS IAM role assigned to IAM user",
+          "credential_name" : "s3_cred121",
+          "accountName" : "",
+          "file_system_type" : "s3"
+        },
+        "jdbc_url" : "",
+        "host_name" : "beb57466.snowflakecomputing.com:443"
+      }
+    }
+  ],
+  "dataplace_tag_details" : []
+}
